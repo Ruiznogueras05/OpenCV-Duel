@@ -4,6 +4,9 @@
 
 This project, **OpenCV Duel**, was developed as my final project for Syracuse University's Image and Video Processing course (Fall 2022). It is an immersive sword-fighting game that uses **Python** and the **Mediapipe library** for real-time hand tracking. Players wield a virtual lightsaber, using their hand movements to block and defend against attacks from an AI-controlled opponent. The game combines custom game logic, collision detection, and sound effects to create a dynamic and interactive experience.
 
+![In_Game_View](media/OpenCV_Duel.jpg)
+
+
 ---
 
 ## Project Description
