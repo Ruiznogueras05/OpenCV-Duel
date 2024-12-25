@@ -2,7 +2,7 @@
 
 ![OpenCV Duel Logo](media/logo.png)
 
-This project, **OpenCV Duel**, was developed as my final project of Syracuse University's Image and Video Processing course (Fall 2022). It is an immersive sword-fighting game that uses **Python** and the **Mediapipe library** for real-time hand tracking. Players wield a virtual lightsaber, using their hand movements to block and defend against attacks from an AI-controlled opponent. The game combines custom game logic, collision detection, and sound effects to create a dynamic and interactive experience.
+This project, **OpenCV Duel**, was developed as my final project for Syracuse University's Image and Video Processing course (Fall 2022). It is an immersive sword-fighting game that uses **Python** and the **Mediapipe library** for real-time hand tracking. Players wield a virtual lightsaber, using their hand movements to block and defend against attacks from an AI-controlled opponent. The game combines custom game logic, collision detection, and sound effects to create a dynamic and interactive experience.
 
 ---
 
@@ -40,7 +40,7 @@ The game features an iconic soundtrack:
 
 2. **Environment Setup**:
    - Ensure your webcam is functional for hand-tracking.
-   - Place the game assets (`TitleScreenTheme.wav`, `MainGameTheme.wav`, `ClashSound.wav`, `DeathSound.wav`, and image files) in the same directory as the game script.
+   - Place the game assets (`TitleScreenTheme.wav`, `MainGameTheme.wav`, `ClashSound.wav`, `DeathSound.wav`, and image files) in their respective folders.
 
 ---
 
@@ -73,8 +73,18 @@ The game features an iconic soundtrack:
 
 ### Scripts
 - **`main2.py`**: The main game script containing all functionality for gameplay, including hand tracking, game logic, and scoring.
-- **`assets`**:
-  - Includes all required game images and fonts for the main menu.
+
+### Folders
+1. **`assets`**:
+   - Contains all the fonts and additional assets used in the game menu.
+2. **`media`**:
+   - Includes project reports and the OpenCV Duel logo.
+3. **`song&effects`**:
+   - Contains background music and sound effects used in the game.
+4. **`testFolder`**:
+   - Contains all development code and scripts that were used during the initial stages of the project but are not part of the main game logic.
+5. **`videogameMedia`**:
+   - Contains all the images required by the main script for gameplay, such as the background and game-over screen.
 
 ### Media
 - **Gameplay Video**:
@@ -83,7 +93,7 @@ The game features an iconic soundtrack:
 
 ### Documentation
 - **Final Report**: Comprehensive details on the development of OpenCV Duel, including challenges and solutions.  
-  [**Read the Report**](media/OpenCVDuel_Report.pdf)
+  [**Read the Report**](media/OpenCVDuel_FinalReport.pdf)
 - **Project Proposal**: Initial project idea and methodology.  
   [**Read the Proposal**](media/OpenCVDuel_Proposal.pdf)
 
